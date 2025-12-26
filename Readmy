@@ -1,0 +1,37 @@
+
+
+// primitive
+// 1.string
+
+// single cotaion
+// fullName='sipalaya info'
+// fullName="sipalaya ' s info"
+// fullName=`sipalaya
+// info
+// tech`;
+
+// 2.Number
+
+// num=10
+// num=10.4
+
+// 3.Boolean
+// 4.Null
+// 5.BigInt
+// 6.Symbol
+// 7.undefined
+
+// non-primitive
+
+
+// function
+// block of code that perform specific task
+// collection of code
+
+// var it is hosting
+
+// not hosting
+// let const
+
+
+
