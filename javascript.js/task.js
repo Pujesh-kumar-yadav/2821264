@@ -798,6 +798,82 @@
 // console.log(arr);
 
 
+// ArrayMethod.pdf
+// 1.Write a function that filters out even numbers from any Array.
+// let arr = [ 1,2,3,4,5,6,7,8,9]
+// const filterEven = arr.filter((item) => {
+//   return item % 2 == 0;
+
+// });
+// console.log(filterEven);
+
+// 2. Filter an array to include only odd numbers.
+// let arr = [ 1,2,3,4,5,6,7,8,9]
+// const filterOdd = arr.filter((item)=>{
+//   return item % 2 != 0
+// })
+// console.log(filterOdd);
+
+// 3. Given an array of strings, filter out strings that have more than 3 characters.
+// let arr = ['a', 'b', 'cape', 'door', 'e']
+// const filterString = arr.filter((item) => {
+//   return item.length > 3;
+// })
+// console.log(filterString);
+
+// 4. Write a function that filters out negative numbers from an array.
+// let arr = [2, 3,-1, 4, -4, -5]
+// const filterNegative = arr.filter((item) => {
+//   return item<0;
+// })
+// console.log(filterNegative);
+
+// 5. Given an array of boolean values, filter out the `true` values.
+// let arr = [true, false, true, false, true]
+// const filterBoolean = arr.filter((item) => {
+//   return item === true;
+// });
+// console.log(filterBoolean);
+
+// 6. Filter an array of strings to include only those that contain the letter 'a'.
+// let arr = ["cat", "dog", "apple", "banana", "grape"];
+// const filterString = arr.filter((item) => {
+//   return item.includes("a");
+// });
+// console.log(filterString);
+
+// 7. Filter an array of numbers to return only those greater than 5.
+// let arr = [1, 6, 5, 7, 2, 3, 9, 10];
+// const filterGreater = arr.filter((item) => {
+//     return item>5;
+//   });
+//   console.log(filterGreater);
+
+// 8. Write a function that filters out empty strings from an array.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
