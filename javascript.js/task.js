@@ -655,15 +655,15 @@
 
 // 17. Split Array into Two:
 // - Write a code to split the array `[1, 2, 3, 4, 5]` into two arrays: one with the first half and one with the second half.
-// let arr = [1, 2, 3, 4, 5]
+let arr = [1, 2, 3, 4, 5]
 
-// let mid = Math.ceil(arr.length/2);
+let mid = Math.ceil(arr.length/2);
 
-// let firstHlaf = arr.slice(0,mid);
-// let secondHalf = arr.slice(mid);
+let firstHlaf = arr.slice(0,mid);
+let secondHalf = arr.slice(mid);
 
-// console.log(firstHlaf);
-// console.log(secondHalf);
+console.log(firstHlaf);
+console.log(secondHalf);
 
 
 
