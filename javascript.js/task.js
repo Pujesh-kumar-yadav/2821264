@@ -667,10 +667,26 @@
 
 // 18. Find Index of an Element:
 // - Write a code to find the index of the element `5` in the array `[10, 20, 5, 30]`.
-let arr  = [10, 20, 5, 30];
+// let arr  = [10, 20, 5, 30];
 
-let index = arr.indexOf(5);
-console.log(index);
+// let index = arr.indexOf(5);
+// console.log(index);
+
+// 19. Check if Array Contains a Number:
+// - Write a code to check if the number `4` is in the array `[2, 4, 6, 8]` and print "Yes" or "No".
+// let arr = [2, 4, 6, 8]
+// for(let i=0; i<arr.length; i++){
+//   if(arr[i] == 4){
+//     console.log("Yes");
+//   } else {
+//     console.log("No")
+//   }
+// }
+// 20. Create an Array with String Lengths:
+// - Write a code to create a new array containing the lengths of each string from the array `["apple", "banana", "cherry"]`.
+// let fruits = ["apple", "banana", "cherry"]
+// let lengths = fruits.map(fruit => fruit.length);
+// console.log(lengths);
 
 
 
