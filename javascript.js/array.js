@@ -133,7 +133,5 @@
 // console.log(arr.includes(3))
 // console.log(arr.includes(5))
 
-
-
 // array object 
 // array strings

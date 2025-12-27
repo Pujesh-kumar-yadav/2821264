@@ -491,8 +491,7 @@
 // }
 // console.log(calculateSumMul());
 
-// Array2
-
+// Array2.pdf
 // 1. Find Even Numbers:
 // - Write a code to find and print all even numbers from the array `[1, 2, 3, 4, 5, 6, 7, 8, 9]`.
 
@@ -688,7 +687,115 @@
 // let lengths = fruits.map(fruit => fruit.length);
 // console.log(lengths);
 
+// Array.pdf
+// 1. Question: Write a function that adds the number `7` at the end of the array `let arr = [1, 2, 3, 4];` using the `push` method. What is the new array?
+// let arr = [1, 2, 3, 4];
+// arr.push(7);
+// console.log(arr);
 
+// 2. Question: Given an array `let arr = ['apple', 'banana'];`, use the `pop` method to remove the last element. What is the modified array?
+// let arr = ['apple', 'banana'];
+// console.log(arr.pop());
+// console.log(arr);
+
+// 3. Question: Use the `shift` method to remove the first element from the array `let arr = [10, 20, 30, 40];`. What does the array look like afterward?
+// let arr = [10, 20, 30, 40];
+// console.log(arr.shift());
+// console.log(arr);
+
+// 4. Question: Write a function that adds the element `'start'` at the beginning of the array `let arr = ['middle', 'end'];` using the `unshift` method. What is the new array?
+// let arr = ['middle', 'end'];
+// console.log(arr.unshift("start"))
+// console.log(arr);
+
+// 5. Question: Convert the array `let arr = ['one', 'two', 'three'];` to a string using the `toString` method. What is the resulting string?
+// let arr = ['one', 'two', 'three'];
+// let result = arr.toString();
+// console.log(result);
+
+// 6. Question: Given an array `let arr = ['cat', 'dog'];`, use the `concat` method to combine it with another array `['fish', 'bird'];`. What is the resulting array?
+// let arr = ['cat', 'dog'];
+// let arr2 = ['fish', 'bird'];
+// console.log(arr.concat(arr2));
+
+// 7. Question: Use the `slice` method to extract the first two elements from the array `let arr = ['red', 'green', 'blue'];`. What does the new array look like?
+// let arr = ['red', 'green', 'blue'];
+// console.log(arr.slice(2,3));
+
+// 8. Question: Write a function that removes the last element from the array `let arr = ['x', 'y', 'z'];` and then adds `'a'` at the beginning using the `unshift` method. What is the final array?
+// let arr = ['x', 'y', 'z'];
+// console.log(arr.pop());
+// console.log(arr.unshift("a"));
+// console.log(arr);
+
+// 9. Question: Use the `toString` method to convert the array `let arr = [100, 200, 300];` to a string, and then find out the length of the resulting string. What is the length?
+// let arr = [100, 200, 300];
+// let result = arr.toString();
+// console.log(result);
+// console.log(arr.length);
+
+// 10. Question: Write a function that uses the `push` method to add both `'orange'` and `'grape'` to the end of the array `let arr = ['apple', 'banana'];`. What is the new array?
+// let arr = ['apple', 'banana'];
+// console.log(arr.push('orange','grape'));
+// console.log(arr);
+
+// 11. Question: Use the `shift` method to remove the first element from the array `let arr = ['sun', 'moon', 'stars'];`. What is the modified array?
+// let arr = ['sun', 'moon', 'stars'];
+// console.log(arr.shift());
+// console.log(arr);
+
+// 12. Question: Write a function that adds the number `42` at the beginning of the array `let arr = [7, 14, 21];` using the `unshift` method. What is the resulting array
+// let arr = [7, 14, 21];
+// console.log(arr.unshift(42));
+// console.log(arr);
+
+// 13. Question: Given an array `let arr = [5, 10, 15, 20];`, use the `pop` method to remove the last element and store it in a variable. What is the value of the variable?
+// let arr = [5, 10, 15, 20];
+// console.log(arr.pop());
+// console.log(arr);
+
+// 14. Question: Convert the array `let arr = ['hello', 'world'];` to a string using the `toString` method, and
+// then split the string back into an array using the `split(',')` method. What is the resulting array?
+// let arr = ['hello', 'world'];
+// let result = arr.toString();
+// let newArr = result.split(',');
+// console.log(newArr);
+
+// 15. Question: Use the `concat` method to combine the arrays `let arr1 = ['x', 'y'];` and `let arr2 = [1, 2];`. What is the resulting array?
+// let arr1 = ['x', 'y'];
+// let arr2 = [1, 2];
+// console.log(arr1.concat(arr2));
+
+// 16. Question: Write a function that adds the number `99` at the end of the array `let arr = [1, 2, 3, 4];`
+// using the `push` method, and then removes the first element using the `shift` method. What is the final array?
+// let arr = [1, 2, 3, 4];
+// console.log(arr.push(99));
+// console.log(arr.shift());
+// console.log(arr);
+
+// 17. Question: Use the `slice` method to extract the last two elements from the array `let arr = ['a', 'b', 'c', 'd'];`. What is the resulting array?
+// let arr = ['a', 'b', 'c', 'd'];
+// console.log(arr.slice(0,2));
+
+// 18. Question: Write a function that adds both `'lion'` and `'tiger'` at the beginning of the array `let arr = ['elephant', 'giraffe'];` 
+// using the `unshift` method. What is the new length of the array?
+// let arr = ['elephant', 'giraffe'];
+// console.log(arr.unshift('Lion', 'Tiger'));
+// console.log(arr);
+
+// 19. Question: Convert the array `let arr = [20, 30, 40];` to a string using the `toString` method, and then
+// convert the string back to an array using the `split(',')` method. What is the final array?
+// let arr = [20, 30, 40];
+// let result = arr.toString();
+// let newArr = result.split(' , ');
+// console.log(newArr);
+
+// 20. Question: Use the `push` method to add `'grape'` to the array `let arr = ['apple', 'banana', 'orange'];`,
+// and then use the `pop` method to remove the last element. What is the resulting array?
+// let arr = ['apple', 'banana', 'orange'];
+// arr.push('grape');
+// arr.pop();
+// console.log(arr);
 
 
 
