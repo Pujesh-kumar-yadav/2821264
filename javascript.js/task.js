@@ -850,6 +850,80 @@
 //   console.log(filterGreater);
 
 // 8. Write a function that filters out empty strings from an array.
+// let arr = ["apple", "", "banana", "", "grape"];
+// const filterString = arr.filter((item) => {
+//     return item !== "";
+//   });
+//   console.log(filterString);
+
+// 9. Write a function that maps an array of numbers to an array where each number is doubled.
+// let arr = [1, 6, 5, 7, 2, 3, 9, 10];
+// const arrayDouble = arr.map((item) => {
+//   return item * 2;
+// })
+// console.log(arrayDouble);
+
+// 10. Convert an array of numbers into an array of strings using `map`
+// let arr = [1, 6, 5, 7, 2, 3, 9, 10];
+// const arrayString = arr.map((item) => {
+//     return item.toString();
+//   })
+//   console.log(arrayString);
+
+// 11. Write a function that converts an array of strings to uppercase using `map`.
+// let arr = ["apple", "banana", "grape"];
+// const arrString = arr.map((item) => {
+//     return item.toUpperCase();
+//   });
+//   console.log(arrString);
+
+// 12. Given an array of numbers, map it to an array of `true` (if the number is positive) or `false` (if the number is negative).
+// let arr = [1, 3,-1, 4, -4, -5];
+// const arrNum = arr.map((item) => {
+//     return item > 0 ;
+//   });
+//   console.log(arrNum); 
+
+// 13. Write a function that adds 1 to each number in an array using `map`.
+// let arr = [1, 6, 5, 7, 2, 3, 9, 10];
+// const addOne = arr.map((item)=> {
+//   return item + 1;
+// })
+// console.log(addOne);
+
+// 14. Given an array of strings, return an array of the first letter of each string using `map`.
+// let arr = ["apple", "banana", "grape"];
+// const firstLetter = arr.map((item)=> {
+//   return item[0];
+// })
+// console.log(firstLetter);
+
+// 15. Convert an array of strings to an array of their lengths using `map`.
+// let arr = ["apple", "banana", "grape"];
+// const stringLength = arr.map((item)=> {
+//   return item.length;
+// })
+// console.log(stringLength);
+
+// 16. Write a function that squares each number in an array using `map
+// let arr = [1, 6, 5, 7, 2, 3, 9, 10];
+// const arrSquare = arr.map((item)=> {
+//   return item ** 2;
+// })
+// console.log(arrSquare);
+
+// 17. Use `forEach` to log each element of an array to the console.
+
+
+
+
+
+
+
+
+
+
+
 
 
 

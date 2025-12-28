@@ -74,7 +74,7 @@
 // // foreach /////not return any
 // // -access and print
 
-// arr.forEach((item,index)=>{  // callBack func use for loop not use
+// arr.forEach((item,index)=>{  // callBack func for loop  is not use
 //   console.log(item+"_"+index)
 // })
 
@@ -126,7 +126,7 @@
 
 ////includes   // not use callback func
 
-let arr = [1, 2, 3, 4];
+// let arr = [1, 2, 3, 4];
 
 // console.log(arr.includes(1))
 // console.log(arr.includes(2))
