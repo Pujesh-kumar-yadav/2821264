@@ -913,6 +913,77 @@
 // console.log(arrSquare);
 
 // 17. Use `forEach` to log each element of an array to the console.
+// let arr = [1, 6, 5, 7, 2, 3, 9, 10];
+// arr.forEach((item,index) => {
+//   console.log(item+"_"+index);
+// });
+
+// 18. Write a function that uses `forEach` to calculate the sum of an array of numbers.
+// let array = [1, 6, 5, 7, 2, 3, 9, 10];
+// let sum = 0;
+// array.forEach((item)=> {
+//   sum = sum + item ;
+// });
+// console.log(sum)
+
+// 19. Use `forEach` to multiply each number in an array by 2 and log the results.
+// let array = [1, 6, 5];
+// array.forEach((item)=> {
+//   console.log(item * 2 );
+// });
+
+// 20. Use `forEach` to log each string in an array in uppercase.
+// let array = ["apple", "banana", "grape"];
+// array.forEach((item)  => {
+// console.log(item.toUpperCase());
+// });
+
+// 21. Use `forEach` to add an exclamation mark to each string in an array and log the new strings.
+// let arr = ["apple", "banana", "grape"];
+// arr.forEach((item) => {
+//   console.log(item + "!");
+// });
+
+// 22. Use `forEach` to log the index and value of each element in an array.
+// let arr = [1, 6, 5, 7, 2, 3, 9, 10];
+// arr.forEach((item,index)=> {
+//   console.log(item + "-" + index);
+// });
+
+// 23. Use `forEach` to log only the odd numbers from an array.
+// let arr = [1, 6, 5, 7, 2, 3, 9, 10];
+// arr.forEach((item) => {
+//   if(item % 2 !== 0){
+//     console.log(item);
+//   }
+// });
+
+// 24. Write a function that uses `forEach` to log numbers greater than 10 from an array.
+//  let arr = [1, 60, 5, 17, 2, 30, 9, 10];
+// arr.forEach((item) => {
+//   if(item > 10){
+//     console.log(item);
+//   }
+// });
+
+// 25. Use `forEach` to concatenate all strings in an array into a single string and log it.
+// let array = ["apple", "banana", "grape"];
+// let result = "";
+// array.forEach((item) => {
+//   result = result.concat(item);
+// });
+// console.log(result);
+
+
+
+
+
+
+
+
+
+
+
 
 
 

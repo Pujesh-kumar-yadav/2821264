@@ -74,7 +74,9 @@
 // // foreach /////not return any
 // // -access and print
 
-// arr.forEach((item,index)=>{  // callBack func for loop  is not use
+
+// forEach
+// arr.forEach((item,index)=>{     // callBack func for loop  is not use
 //   console.log(item+"_"+index)
 // })
 
