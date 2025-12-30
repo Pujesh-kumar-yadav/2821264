@@ -1,35 +1,35 @@
-const products = [
-  {
-    id: 1,
-    name: "abc",
-    price: 2000,
-    quantity: 10,
-  },
-  {
-    id: 2,
-    name: "mno",
-    price: 4000,
-    quantity: 20,
-  },
-  {
-    id: 3,
-    name: "xyz",
-    price: 5000,
-    quantity: 100,
-  },
-  {
-    id: 4,
-    name: "pqr",
-    price: 30000,
-    quantity: 200,
-  },
-  {
-    id: 5,
-    name: "iphone",
-    price: 90000,
-    quantity: 7000,
-  },
-];
+// const products = [
+//   {
+//     id: 1,
+//     name: "abc",
+//     price: 2000,
+//     quantity: 10,
+//   },
+//   {
+//     id: 2,
+//     name: "mno",
+//     price: 4000,
+//     quantity: 20,
+//   },
+//   {
+//     id: 3,
+//     name: "xyz",
+//     price: 5000,
+//     quantity: 100,
+//   },
+//   {
+//     id: 4,
+//     name: "pqr",
+//     price: 30000,
+//     quantity: 200,
+//   },
+//   {
+//     id: 5,
+//     name: "iphone",
+//     price: 90000,
+//     quantity: 7000,
+//   },
+// ];
 
 // console.log(products[0]);
 // console.log(products[0].name);
