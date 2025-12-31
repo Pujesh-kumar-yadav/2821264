@@ -74,7 +74,6 @@
 // // foreach /////not return any
 // // -access and print
 
-
 // forEach
 // arr.forEach((item,index)=>{     // callBack func for loop  is not use
 //   console.log(item+"_"+index)
@@ -87,7 +86,7 @@
 // let arr = [1, 2, 3, 4, 5];
 // const newArr = arr.map((item) => {
 //   // return item * 50
-//   // return item + 100 
+//   // return item + 100
 //   return item %2
 // });
 // console.log(newArr);
@@ -104,7 +103,6 @@
 // })
 // console.log(filterItems)
 
-
 ////Reduce
 // reduce -- calculation use -- single value return to use only
 
@@ -115,7 +113,6 @@
 
 // },0)                    // not pass 0 then result->1 automatic pass -- only use 0 why- object {} not support
 // console.log(totalVal)
-
 
 ////find    // value search
 
@@ -135,5 +132,45 @@
 // console.log(arr.includes(3))
 // console.log(arr.includes(5))
 
-// array object 
-// array strings
+// array object
+//Array destructing
+// let arr = [1, 2, 3];
+
+// const [a,b,c] = arr
+// console.log(a,b,c)
+
+// //Object destructing
+// const user ={       //object destructing
+//     name:"abc",
+//     age:20
+// }
+// console.log(name);
+// console.log(age);
+
+// rest and spread op. (...)
+//spread
+// let arr = [1, 2, 3];
+// let arr2 = [...arr,100,200,300]
+// console.log(arr2)
+// const user ={
+//   name:"abc",
+//   age:20
+// }
+// const user2={
+//   ...user,
+//   phone:98393775
+// }
+// console.log(user2)
+
+//rest (...)    /// dyanmic data handle
+
+// const add = (...x) => {
+//   console.log(
+//     x.reduce((acc, item) => {
+//       return acc + item;
+//     }, 0)
+//   );
+// };
+// add(100, 200, 2, 4, 6);
+
+
