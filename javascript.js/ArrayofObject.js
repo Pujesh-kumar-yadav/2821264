@@ -64,7 +64,7 @@
 //     return products.filter((item) => {
 //       return item.price > 5000;
   
-//     }, 0)
+//     }, 0);
 //   }
 //   console.log(filterPrice());
 
@@ -77,9 +77,11 @@
 
 //5. wrt a function that will  calculate  the total  price of iphone.(find)
 // let mobile = products.find((item) => {
-//   return item.name == "iphone";
-// },0);
+//   return item.name === "iPhone";
+// });
+
 // console.log(mobile.price);
+
 
 // 6. wrt a function that increase the  price of product by 2 times  whose id is odd.(map)
 
