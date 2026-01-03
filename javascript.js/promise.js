@@ -79,7 +79,130 @@
 //   console.log(error);
   
 // }
-
 // };
-
 // getProduct();
+
+
+// 1. wrt a function that will calculate the total number of quantity of all products
+
+// async function getUsers() {
+//   try {
+//     const response = await fetch("https://dummyjson.com/products");
+//     const data = await response.json();
+
+//     const totalQuantity = data.products.reduce((acc, item) => {
+//       return acc + item.stock;
+//     }, 0);
+
+//     console.log("Total Quantity:", totalQuantity);
+
+//   } catch (error) {
+//     console.log("Error:", error);
+//   }
+// }
+
+// getUsers();
+
+//2. wrt a function that will calculate the total price all product
+
+//  async function getUsers() {
+//   try {
+//     const response = await fetch("https://dummyjson.com/products");
+//     const data = await response.json();
+
+//     const totalPrice = data.products.reduce((acc, item) => {
+//       return acc + item.price;
+//     }, 0);
+
+//     console.log("Total Price:", totalPrice);
+
+//   } catch (error) {
+//     console.log("Error:", error);
+//   }
+// }
+
+// getUsers();
+
+//3. wrt a function that will find out more  than 5000 product price 
+
+// async function getUsers() {
+//   try {
+//     const response = await fetch("https://dummyjson.com/products");
+//     const data = await response.json();
+
+//     const morePrice = data.products.filter((item) => {
+//       return item.price > 2400 ;
+//     });
+
+//     console.log("Products with price > 2400:", morePrice);
+
+//   } catch (error) {
+//     console.log("Error:", error);
+    
+//   }
+// }
+
+// getUsers();
+
+
+//4. wrt a function that will  print the price of beauty.
+// async function getUsers() {
+//   try {
+//     const response = await fetch("https://dummyjson.com/products");
+//     const data = await response.json();
+
+//     const beautyPrices = data.products
+//     .filter(item =>  item.category === "beauty" )
+//     .map((item) =>  item.price );
+      
+
+
+//     console.log("Price of beauty products:",beautyPrices);
+
+//   } catch (error) {
+//     console.log("Error:", error);
+    
+//   }
+// }
+
+// getUsers();
+
+//5. wrt a function that will  calculate  the total  price of abc.
+
+// async function getUsers() {
+//   try {
+//     const response = await fetch("https://dummyjson.com/products");
+//     const data = await response.json();
+
+//     const totalBeautyPrice = data.products
+//     .filter(item =>  item.category === "beauty" )
+//     .reduce((acc, item) =>  acc + item.price , 0);
+      
+//     console.log("Total Price of beauty products:",totalBeautyPrice);
+
+//   } catch (error) {
+//     console.log("Error:", error);
+    
+//   }
+// }
+
+// getUsers();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
