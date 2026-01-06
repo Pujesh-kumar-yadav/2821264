@@ -1,4 +1,4 @@
-const btn=document.querySelector('#btn')
+// const btn=document.querySelector('#btn')
 
 // event handling
 // --on
@@ -22,9 +22,30 @@ const btn=document.querySelector('#btn')
 // })
 
 
-function showAlert() {
-  alert("addEventListener");
-}
+// function showAlert() {
+//   alert("addEventListener");
+// }
 
-btn.addEventListener('mouseover', showAlert);
-btn.removeEventListener('mouseover', showAlert);
+// btn.addEventListener('mouseover', showAlert);
+// btn.removeEventListener('mouseover', showAlert);
+
+
+
+const btn = document.querySelector("#btn");
+const first = document.querySelector(".first");
+
+let isTrue = true;
+btn.addEventListener("click", () => {
+  if (isTrue) {
+    first.style.backgroundColor = "black";
+    first.style.color = "white";
+    btn.innerText = "change color to white";
+    isTrue = false;
+  } else {
+    first.style.backgroundColor = "white";
+    first.style.color = "black";
+    btn.innerText = "change color to black";
+    isTrue = true;
+  }
+});
+
